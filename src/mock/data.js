@@ -30,67 +30,71 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'facerecognition.JPG',
+    title: 'Face Recognition APP',
+    info:
+      "This is a web application using React, Node, and postgreSQL. It lets users register and sign in, and place image URL's. Using the Clairify API, the app will detect human faces, and using CSS, will place a square around the face.",
+    info2:
+      'Please note: This app is hosted on Heroku free edition, since Heroko deprioritizes free accounts, please give it time to load.',
+    url: 'https://face-recognitionaswaff.herokuapp.com/',
+    repo: 'https://github.com/aswaff/facerecognition', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'URL shorten.JPG',
+    title: 'URL Shortener',
+    info:
+      'This application is made using React.  It utilizes the shrtcode API.  It allows users to paste a link and then fetches the API, and returns the shortened URL.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://aswaff.github.io/URL-Shortener/',
+    repo: 'https://github.com/aswaff/URL-Shortener', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'robofriends.jpg',
+    title: 'RoboFriends',
+    info:
+      'This small application makes a request from Typicode, for a users JSON placeholder.  It places the fetched JSON data into a nice layout of cards on the web page.  It uses RoboHash to generate the photos based on the ID of the JSON. It also allows a live search, that arranges the cards on the page as you type.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://aswaff.github.io/robofriends/',
+    repo: 'https://github.com/aswaff/robofriends', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Feel free to reach out to me!',
+  btn: 'Email',
+  email: 'averyds17@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/avery-swafford-999a2370/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/aswaff',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
